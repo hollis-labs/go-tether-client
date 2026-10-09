@@ -1,5 +1,21 @@
 # go-tether-client
 
+## Moved to substrate
+
+This standalone repository is deprecated. New development lives in the
+[`github.com/hollis-labs/substrate/mesh`](https://github.com/hollis-labs/substrate/tree/mesh/v0.1.0/mesh)
+module, released as **`mesh/v0.1.0`**.
+
+```sh
+go get github.com/hollis-labs/substrate/mesh@v0.1.0
+```
+
+Follow the [package and API migration guide](https://github.com/hollis-labs/substrate/blob/mesh/v0.1.0/mesh/tetherclient/MIGRATION.md) when updating imports;
+the consolidation can include API changes. Existing standalone tags and history
+are preserved. The documentation below describes the standalone releases and
+is retained for historical reference. Applications migrate separately; this
+redirect does not deploy or update any consumer.
+
 [![Go Reference](https://pkg.go.dev/badge/github.com/hollis-labs/go-tether-client.svg)](https://pkg.go.dev/github.com/hollis-labs/go-tether-client)
 
 A typed Go client for the Tether daemon control-plane API.
